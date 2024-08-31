@@ -4,6 +4,10 @@
 
 replicaCount: 1
 
+birdeye:
+  env:
+    databaseURL: "placeholder"
+
 image:
   repository: docker.io/s8hakans/ocean
   pullPolicy: IfNotPresent
